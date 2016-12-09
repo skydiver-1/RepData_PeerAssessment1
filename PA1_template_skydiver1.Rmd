@@ -117,5 +117,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}  
 # contained in the knitr report generated
 # Github: https://github.com/skydiver-1/RepData_PeerAssessment1
-# SHA: 
+# SHA: f1558b7b715e62c74f6332e3e31641f9d9bf13c2
 ```
