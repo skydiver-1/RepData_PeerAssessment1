@@ -1,7 +1,7 @@
 ---
-title: "PA1_template.RMD"
-output: html_document
+output: pdf_document
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 1. Code for reading in the dataset and/or processing the data
 
 ```{r}
-    setwd("~/Desktop/Course 5_Reproducible Research")
+    setwd("~/Desktop/Course 5_ReproducibleResearch")
     library(dplyr)
 
     data <- read.csv("activity.csv")
@@ -117,5 +117,4 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}  
 # contained in the knitr report generated
 # Github: https://github.com/skydiver-1/RepData_PeerAssessment1
-# SHA: f1558b7b715e62c74f6332e3e31641f9d9bf13c2
 ```
